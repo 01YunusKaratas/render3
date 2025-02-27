@@ -1,0 +1,370 @@
+.navbar{
+    max-height: 400px;
+    
+}
+
+.nav-link{
+    font-size: 18px;
+    margin: 5px;
+}
+/*About page*/
+.about-banner {
+    background-image: url("/media/about3.png");
+    background-size: cover; 
+    background-position: left; 
+    background-repeat: no-repeat; 
+    height: 100%; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    z-index: -1;
+
+    background-color: #212529;
+}
+
+/*Alldetails banner*/
+.details-banner{
+    background-image: url("/media/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    z-index: 1;
+    position: relative;
+    height: 100vh;
+    margin-top:80px;
+    overflow-x: hidden;
+    
+}
+
+
+.banner{
+    background-image: url("/media/sliders.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+    
+}
+/*About banner*/
+.about-banner {
+    background-image: url("/media/about3.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; /* Sayfanın en az 60vh olması sağlanır */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    z-index: -1;
+    position: relative;
+    background-color: #212529;
+    
+}
+
+/*Details page*/
+.details-text{
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    
+    opacity: 1.2;
+}
+.details-title{
+    font-weight:400 !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#212529 !important;   
+}
+.details-2{
+    
+    color: #937a59;
+}
+.details-2:hover{
+    color: white;
+}
+
+
+
+/*index*/
+#banner-title{
+    font-size: 50px;
+   
+    font-family:'Times New Roman', Times, serif
+}
+.banner-text{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.card{
+    max-height: 500px;
+}
+.card-body{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+   
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+   
+}
+.services{
+
+    min-height: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transition: all  ease 1s; 
+    background-color: #AA8453;
+    
+}
+
+.services img{
+    object-fit: cover;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+
+.choosed{
+    background-color: #AA8453;
+    background-image: url("/media/arkaplaniçin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 2;
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: #AA8453 !important;
+}
+.content{
+    position: absolute;
+    
+    width: 600px;
+    right: 25%;
+    
+}
+.whyChoosed{
+    background-color: white;
+    min-height: 600px;
+}
+.whyChoosed h3{ 
+    text-decoration: none;
+}
+.whyChoosed h3:hover{
+    text-decoration: underline #3b2f1f ;
+}
+.why {
+    height: 225px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: rgb(98, 92, 68) 0px 20px 30px -10px !important; 
+    background-color: #212529;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+  }
+  
+.why:hover { 
+    background-color: #AA8453 !important;
+  }
+  
+
+.footer{
+    background-color: #212529;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*About page*/
+
+.vision{
+    background-color: #212529;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.vision-text{
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Hafif şeffaf kutu efekti */
+    border-radius: 10px;
+}
+.mission-text{
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Hafif şeffaf kutu efekti */
+    border-radius: 10px;
+}
+
+
+
+
+.swiper-container {
+    width: 100%;
+    height: 600px; 
+    overflow: hidden;
+    
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+}
+
+.our-title{
+    font-weight:bolder !important;
+    font-size: xx-large;
+    opacity: 0.9;
+    color: #f0ba73 !important;
+    
+    
+}
+.our-description{
+    font-weight:600 !important;
+    font-size: large;
+    opacity: 0.9;
+    color: #ffffff !important;
+    text-indent:5px;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+
+/*Contact*/
+
+.maps {
+    background-color: white;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-container {
+    width: 100%;
+    margin:100px auto;
+    height: 100vh; 
+    overflow: hidden;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8); 
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.info{
+    background-color:#212529;
+}
+
+.infos{
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Hafif şeffaf kutu efekti */
+    border-radius: 10px;
+}
+
+
+/*Alldetails*/
+
+#search-form{
+    border:1px solid black;
+    width:400px;
+    height:500px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#search-form input{
+    text-align: center;
+
+}
+#search-form button{
+    width: 100%;
+    background-color: #AA8453;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#search-form button:hover{
+    width: 100%;
+    background-color: #937a59;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width: 480px) {
+    .content{
+        position: absolute;
+        top: 45%;
+        width: 600px;
+        right: 3%;
+        
+        
+    }
+    .content p {
+        display: none
+    };
+   .vision-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+   .models{
+    display: none;
+   }
+   .details-text{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    
+    opacity: 1.2;
+   }
+   .details-banner{
+    overflow-x: hidden;
+    color: black;
+   
+   }
+   .details-banner .bölüm{
+    margin-top:35rem;
+    color: black;
+    
+   }
+  
+}
+
+
+
+
+
+
